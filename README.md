@@ -245,6 +245,9 @@ spark SQL등 사용되고 다양한 언어를 제공하면서
 ### DNS
 Domain name system의 약자로 IP주소를 외우기 너무 힘들기 때문에 domain이란 것을 만들었다.
 
+### API vs Rest API
+
+결론 API가 더 크다 굳이 차이점이라면 http 프로토콜을 사용하는 API 끝 
 
 ### AOP
 
