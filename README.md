@@ -264,11 +264,11 @@ Domain name system의 약자로 IP주소를 외우기 너무 힘들기 때문에
 
 ### REST의 특징
 
-1)  Uniform (유니폼 인터페이스) : HTTP 표준에만 따른다면, 안드로이드/IOS 플랫폼이든, 
+-  Uniform (유니폼 인터페이스) : HTTP 표준에만 따른다면, 안드로이드/IOS 플랫폼이든, 
 
 특정 언어나 기술에 종속되지 않고 모든 플랫폼에 사용이 가능
 
-2) Stateless (무상태성) : HTTP는 Stateless Protocol 이므로, REST 역시 무상태성을 갖는다. 
+- Stateless (무상태성) : HTTP는 Stateless Protocol 이므로, REST 역시 무상태성을 갖는다. 
 
 즉, HttpSession과 같은 컨텍스트 저장소에 상태정보를 따로 저장하고 관리하지 않고, 
 
@@ -276,17 +276,17 @@ API 서버는 들어오는 요청만을 단순 처리하면 된다.
 
 세션과 같은 컨텍스트 정보를 신경쓸 필요가 없어 구현이 단순해진다.
 
-3) Cacheable (캐시가능) 
+- Cacheable (캐시가능) 
 
-4) Self-descriptiveness (자체 표현 구조) : 동사(Method) + 명사(URI) 로 이루어져있어 어떤 메서드에 
+- Self-descriptiveness (자체 표현 구조) : 동사(Method) + 명사(URI) 로 이루어져있어 어떤 메서드에 
 
 무슨 행위를 하는지 알 수 있으며, 메시지 포맷 역시 JSON을 이용해서 직관적으로 이해가 가능한 구조로
 
 , REST API 메시지만 보고도 이를 쉽게 이해할 수 있다.
 
-5) Client - Server 구조 : 의존성 줄임
+- Client - Server 구조 : 의존성 줄임
 
-6) 계층형 구조 : API 서버는 순수 비지니스 로직을 수행하고, 그 앞단에 사용자 인증, 암호화(ssl),
+- 계층형 구조 : API 서버는 순수 비지니스 로직을 수행하고, 그 앞단에 사용자 인증, 암호화(ssl),
 
  로드밸런싱 등을 하는 계층을 추가하여 구조상의 유연상을 둘 수 있다. 
  
