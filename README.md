@@ -386,6 +386,58 @@ API 서버는 들어오는 요청만을 단순 처리하면 된다.
 - XML 사용 
 
 
+## Spring Framework의 구성 
+
+`7개의 모듈`로 제공 됨 
+
+- Spring AOP
+
+- Spring ORM
+
+- Spring DAO
+
+- Spring Web
+
+- Spring Context
+
+- Spring Web MVC
+
+- Spring Core
+
+
+### Spring AOP
+
+- Spring의 메타데이터 자원을 사용해서 메타데이터 프로그래밍 가능
+
+- Spring이 어디에 어떻게 aspect를 적용할지 annotation 제공
+
+### Spring ORM
+
+- Hibermate, iBATIS를 포함하는 객체-관계 맵핑 API를 위한 통합 레이어 제공 
+
+### Spring DAO
+
+- JDBC 코딩과 데이터베이스 업체 특성 에러코드의 파싱의 필요를 제거하는 JDBC추상화 레이어를 제공
+
+- JDBC패키지는 특정 인터페이스를 구현하는 클래스와 POJO 객체들을 위한 선언적인 트랜잭션 관리 
+
+### Spring Web
+
+- 멀티파트기능, 서블릿 리스너를 사용한 컨텍스트 초기화, 웹-기반 통합 기능 제공 
+
+- WebWork, Struts 와 Spring으 사용할 때 통합될 수 있도록 지원 
+
+### Spring Core
+
+- Framework의 가장 기본적인 부분 
+
+- beanContainer를 기능적으로 관리 DI기능 제공 
+
+- 프로그램에 따른 싱글톤의 필요성을 제거하는 factory패턴 제공
+
+- BeanFactory임 = 실질적인 프로그램 로직으로부터 설정과 의존성 명시 분리 
+
+
 ### AOP
 
 
