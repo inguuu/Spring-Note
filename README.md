@@ -453,6 +453,37 @@ dto =>[ Service(비즈니스 계층) => dao(퍼시스턴트 계층)  model]=> my
 - BeanFactory임 = 실질적인 프로그램 로직으로부터 설정과 의존성 명시 분리 
 
 
+
+### Controller 
+
+- 단순처리 -> AbstractController
+
+- 파라미터매핑 -> AbstractCommandMapping
+
+- 입력폼처리 -> SimpleFormController
+
+- 다중 페이지 입력 폼처리 - AbstactWizzardFormController
+
+- 정적뷰 매핑 -> 파라미터 뷰 컨트롤러, urlfilenameviewController
+
+- 다중액션 -> MultiActionController
+
+### Annotation
+
+#### AOP 설정 
+
+- @Aspect 
+- @Pointcut
+
+
+#### Aspect 설정 
+
+- @Before
+- @After
+- @AfterReturning
+- @AfterThrowing
+- @Around
+
 ### AOP
 
 
