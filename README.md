@@ -491,5 +491,3 @@ dto =>[ Service(비즈니스 계층) => dao(퍼시스턴트 계층)  model]=> my
 
 라우터를 10개로 쪼갠거랑 1개로 나눈거랑 속도는 절대로 관련없다!!! 
 
-[localhost:4000/zetsu](http://localhost:4000/zetsu/)
-
